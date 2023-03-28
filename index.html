@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./tri.js" defer type="module"></script>
+</head>
+
+<body>
+    <table class="section blurred" data-table>
+        <thead data-head>
+            <tr>
+                <th data-th>Item<span data-option-sort="name">▲</span><span data-option-sort="-name">▼</span>
+                </th>
+                <th data-th>Code <span data-option-sort="code">▲</span><span data-option-sort="-code">▼</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody data-section>
+            <tr class="row">
+                <td>
+                    <div>AAAA</div>
+                </td>
+                <td>
+                    <div>1111</div>
+                </td>
+
+            </tr>
+
+
+        </tbody>
+    </table>
+    <template data-template>
+        <tr class="row">
+            <td>
+                <div data-name></div>
+            </td>
+            <td>
+                <div data-code></div>
+            </td>
+            <td>
+                <div data-time></div>
+            </td>
+        </tr>
+    </template>
+</body>
+
+</html>
