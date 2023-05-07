@@ -1,6 +1,6 @@
 export const dynSort = (property) => {
 
-  console.log("dynsort " + property)
+  console.log(`dynsort:  + ${property}`)
   let sortOrder = 1;
   if (property[0] === "-") {
     sortOrder = -1;
